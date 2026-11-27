@@ -1,8 +1,8 @@
 class Adit < Formula
   desc "WireGuard client that keeps several tunnels up, with a menu bar icon and a CLI"
   homepage "https://adit.saulo.pro"
-  url "https://github.com/saulo-pro/adit/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "62bbbadbd28b673944220ba9d588b36571f3619231e161d415bdf3e74bbcc5af"
+  url "https://github.com/saulo-pro/adit/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "dd848711249b99787ae7c15345f22ffb98d8d09dc5c27a4d5a0328f07780d2ba"
   license "MIT"
   head "https://github.com/saulo-pro/adit.git", branch: "main"
 
@@ -21,6 +21,7 @@ class Adit < Formula
       adit's service, aditd, runs as root. Install it and the menu bar icon with:
         sudo adit install
       and run that again after every upgrade: it copies aditd to a place only root can change.
+      To remove adit, run sudo adit uninstall before brew uninstall adit.
     EOS
   end
 
