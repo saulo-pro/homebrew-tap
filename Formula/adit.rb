@@ -1,8 +1,8 @@
 class Adit < Formula
   desc "WireGuard client that keeps several tunnels up, with a menu bar icon and a CLI"
   homepage "https://adit.saulo.pro"
-  url "https://github.com/saulo-pro/adit/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "fc801d01c32f504b3264b058be833f8bf2c7eabc73659c8d7d35717daf3e5477"
+  url "https://github.com/saulo-pro/adit/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "e50775e01aa7702cf08f4f6bc86f8b2d911bbe4b543b5b68e062ea57afe9c15a"
   license "MIT"
   head "https://github.com/saulo-pro/adit.git", branch: "main"
 
